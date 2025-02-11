@@ -1,0 +1,50 @@
+  body {
+      background-image: url("ME%20POT%20O'%20GOLD.webp");
+      background-repeat: no-repeat;
+      background-position: center;
+      background-size: cover;
+  }
+  p {
+      color: orange;
+  }
+  h1 {
+      color: orange;
+  }
+  h2 {
+      color: orange;
+  }
+  h3 {
+      color: orange;
+  }
+  a {
+      background-color: antiquewhite;
+      border: none;
+      color: black;
+      padding: 15px 32px;
+      text-align: center;
+      text-decoration: none;
+      display: inline-block;
+      font-size: 16px;
+      margin: 4px 2px;
+      cursor: pointer;
+  }
+  table {
+      font-family: arial, sans-serif;
+      border-collapse: collapse;
+      width: 100%;
+  }
+
+  td,
+  th {
+      border: 1px solid rgba(0, 0, 0, 0.54);
+      text-align: left;
+      padding: 8px;
+  }
+
+  tr:nth-child(even) {
+      background-color: rgba(255, 0, 0, 0.69);
+  }
+
+  tr:nth-child(odd) {
+      background-color: rgba(0, 255, 0, 0.69);
+  }
