@@ -1,0 +1,18 @@
+ body {
+     background-image: url(spider-man-2002-the-amazing-spider-man-spider-man-homecoming-posters.avif);
+     background-repeat: no-repeat;
+     background-position: center;
+     background-size: cover;
+      height: 100%;
+     color: #f58ef5
+ }
+.ironmanhover {
+    border: 5px outset red;
+        background-color: rgba(173, 216, 230, 0);
+        text-align: center;
+}
+img {
+  max-width: 10%;
+  height: auto;
+    border: 5px solid #c62323;
+}
