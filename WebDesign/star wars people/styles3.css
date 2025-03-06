@@ -206,7 +206,7 @@
 
 /* Rey */
 #rey .body {
-  position: absolute;
+  position:;
   width: 100px;
   height: 150px;
   background: transparent;
@@ -410,7 +410,7 @@
 
 /* Poe */
 #poe .body {
-  position: absolute;
+  position:;
   width: 100px;
   height: 150px;
   background: #EA6B26;
@@ -751,7 +751,7 @@
 
 /* Phasma */
 #phasma .body {
-  position: absolute;
+  position:;
   width: 100px;
   height: 170px;
   background: #86a7ea;
@@ -957,7 +957,7 @@
 
 /* Emo Vader */
 #kylo .body {
-  position: absolute;
+  position: ;
   width: 80px;
   height: 150px;
   background: #4d4d4d;
@@ -1228,7 +1228,7 @@
 
 /* Hux */
 #hux .body {
-  position: absolute;
+  position: ;
   width: 100px;
   height: 150px;
   background: #191919;
