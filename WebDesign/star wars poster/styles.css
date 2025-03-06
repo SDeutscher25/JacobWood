@@ -1,0 +1,66 @@
+body {
+    font-family: serif;
+    color: #ffffff;
+    background-image: url("stars.webp");
+    width: 600px;
+    margin: auto;
+}
+
+h1 {
+    font-size: 40px;
+    text-align: center;
+}
+
+h2 {
+    text-align: center;
+}
+
+ul {
+    list-style-type: none;
+    text-align: center;
+}
+
+li {
+    display: inline-block;
+}
+
+nav li {
+    background-color:white;
+    margin:10px;
+    padding:10px;
+    border-radius:10px;
+}
+
+.photo img {
+    width: 200px;
+    border-radius: 25px;
+}
+
+.thumbs img {
+    height: 45px;
+    border-radius: 10px;
+}
+
+.droid {
+    background-color: dimGray;
+    padding: 5px;
+    margin: 2em;
+    border: 2px solid white;
+    border-radius: 25px;
+}
+-- .droid .photo {
+    float: left;
+    margin: 1em;
+}
+
+.droid:nth-child(even) .photo {
+    float: right;
+}
+
+.desc {
+    margin: 1em;
+}
+
+.droid .thumbs {
+    clear:left;
+}
