@@ -1,66 +1,80 @@
 body {
-    font-family: serif;
-    color: #ffffff;
-    background-image: url("stars.webp");
-    width: 600px;
-    margin: auto;
+    font-family: sans-serif;
+    color: white ;
+    background-image: url("stars.webp") ;
+    width:700px ;
+    margin:auto auto auto auto ;
 }
 
 h1 {
-    font-size: 40px;
-    text-align: center;
+    font-size:50px ;
+    text-align:center ;
 }
 
 h2 {
-    text-align: center;
+    text-align:right;
 }
 
 ul {
     list-style-type: none;
-    text-align: center;
+    text-align:center ;
+  color:white;
 }
 
-li {
-    display: inline-block;
-}
+
 
 nav li {
-    background-color:white;
-    margin:10px;
-    padding:10px;
-    border-radius:10px;
+    background-color:white ;
+    margin:20px ;
+    padding:10px ;
+    border-radius:30px ;    
 }
 
 .photo img {
-    width: 200px;
-    border-radius: 25px;
+    width:400px ;
+    border-radius:30px ;  
 }
 
 .thumbs img {
-    height: 45px;
-    border-radius: 10px;
+    height: 70px;
+    border-radius:10px ;    
 }
 
 .droid {
-    background-color: dimGray;
-    padding: 5px;
-    margin: 2em;
-    border: 2px solid white;
-    border-radius: 25px;
+    background-color:grey ;
+    padding:15px ;
+    margin: 40px;
+    border:white solid 5px ; ;
+    border-radius:40px ;
 }
--- .droid .photo {
+
+.droid .photo {
     float: left;
-    margin: 1em;
+    margin:20px ;
 }
 
 .droid:nth-child(even) .photo {
-    float: right;
+float:right ;
 }
 
 .desc {
-    margin: 1em;
+    margin:20px;
 }
 
+
 .droid .thumbs {
-    clear:left;
+       flex-direction:row;
 }
+.thumbs {
+  flex-direction:row;
+}
+.caption {
+  flex-direction:;
+}
+li {
+  Display:inline-block ;
+}
+copyrightNotice. {
+  text-color: white;
+}
+--
