@@ -1,0 +1,42 @@
+.droid {
+    background-color: grey;
+    margin: auto;
+    font-family: Paprika;
+}
+.sigma {
+    background-color: orangered;
+    display: flex;
+    flex-direction: row;
+}
+.idk {
+    background-color: skyblue;
+    display: flex;
+    flex-direction: row;
+}
+.erm {
+    background-color: mediumpurple;
+    display: flex;
+    flex-direction: row;
+}
+.whatever {
+    background-color: #ffffff;
+    margin: auto;
+    font-family: Paprika;
+}
+.devilmaycry {
+    background-color: #6a6a6a;
+    display: flex;
+    flex-direction: row;
+}
+.thumbs img {
+    height: 70px;  
+    width: 70px;
+}
+li {
+  Display:inline-block ;
+}
+.paprika-regular {
+    font-family: "Paprika", system-ui;
+    font-weight: 400;
+    font-style: normal;
+}
