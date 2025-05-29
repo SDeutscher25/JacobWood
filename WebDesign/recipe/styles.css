@@ -1,0 +1,30 @@
+ body {
+  height: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+     color: #000000
+ }
+.recipe {
+    border: 5px outset #c88b00;
+        background-color: rgba(173, 216, 230, 0);
+        text-align: center;
+    font-size: 25px;
+}
+img {
+  max-width: 10%;
+  height: auto;
+    border: 5px solid #c88b00;
+}
+a {
+    background-color: antiquewhite;
+    border: none;
+    color: black;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
